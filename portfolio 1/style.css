@@ -1,0 +1,263 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-size: 50px;
+}
+ 
+p {
+    color: dimgrey;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+.name-highlight {
+    color: rgb(250, 213, 1);
+}
+
+
+.nav a {
+    padding: 0rem 3rem;
+}
+
+a {
+    font-weight: 600;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*  */
+
+.half-width {
+    background-color:;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: center;
+    align-items: center;
+}
+
+.half-width img{
+    width: 100%;
+    margin: auto;
+}
+
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(107, 97, 97));
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* NAVBAR */
+
+.search-bar {
+    justify-self: flex-end;
+    padding-right: 2rem;
+}
+
+.btn {
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(29, 27, 27);
+    color: white;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+#srch {
+     padding: 0.9rem 2rem;
+     border-radius: 0.5rem;
+     outline: none;
+}
+
+.bar {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.bar img{
+    width: 200px;
+}
+
+.navbar {
+    background-color: rgb(250, 213, 1);
+    margin: auto;
+    height: 200px;
+}
+
+.navbar .half-width {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav {
+    justify-self: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .nav a:hover{
+    color: rgb(247, 149, 1);
+    
+}
+
+
+
+/* SECTION-A */
+
+.section-a{
+    background-repeat: no-repeat;
+    background-image: url("img/top-banner.png");
+}
+
+  /* SECTION B */
+
+.full-width{
+    width: 90%;
+    margin: auto;
+}
+
+.section-b {
+    position: relative;
+    height: 600px;
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.themefoxx.com%2Fwp-content%2Fuploads%2F2019%2F03%2FBatman-Minimalist-Wallpapers-10.jpg&f=1&nofb=1") no-repeat top center/cover;
+}
+
+.b-inner {
+    color: rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+} 
+
+.b-inner h3 {
+    font-size: 4rem;
+    color: rgb(128, 8, 8);
+    text-shadow: 2px 2px rgb(177, 9, 9);
+}
+
+.b-inner h2 {
+    transform: translatey(-60%);
+    color:  yellow;
+    font-size: 6rem;
+    text-shadow: 2px 2px black;
+}
+
+.b-inner p {
+    transform: translatey(-100%);
+    padding-top: 2rem;
+    color: rgb(187, 185, 185);
+    font-size: 1.3rem;
+}
+
+/* section-c */
+
+.section-c {
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* section-d */
+
+
+.d-container {
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray ;
+}
+
+.box1 {
+    display: inline-block;
+    width: 40%;
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(253, 207, 0), rgba(245, 240, 200, 0.623));
+    border-image-slice: 1;
+}
+
+.box2 {
+    display: inline-block;
+    width: 40%;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 0, 0), rgb(173, 173, 173));
+    border-image-slice: 1;
+}
+
+.Section-d h2 {
+    margin-left: 2rem;
+}
+
+/* FOOTER */
+
+
+.section-footer { 
+    background: rgb(35, 35, 36);
+    color: rgb(254, 254, 255);
+    padding: 4rem 0;
+}
+
+.section-footer .container { 
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.section-footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-footer h3 {
+    margin-bottom: 0.7rem;
+}
+
+.section-footer a{
+    line-height: 1.9;
+    color: #ccc;
+}
+
+.container i {
+    color: rgb(236, 253, 2);
+    padding-right: 2rem;    
+}
+
+.container {
+    margin: 0 3rem;
+}
+
